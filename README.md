@@ -32,7 +32,13 @@ Instalar las dependencias tanto de Frontend como backend para ello ingresaremos 
  - Renombrar el archivo `.env.example` a `.env` ya que contiene la variable de entorno que contiene la URL-BASE del servicio de MELI.
  - Inicializamos el servidor por medio de `yarn start` para ambiente de certificación o de Porducción y `yarn dev` para ambiente de desarrollo.
  - Se debería ver algo parecido a esto:
-	 ![enter image description here](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a51a2545-7b79-416e-8529-267c6e206c62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5/20210917/us-west-2/s3/aws4_request&X-Amz-Date=20210917T153130Z&X-Amz-Expires=86400&X-Amz-Signature=6c395ff040d6003779b0458e8d802cdebeed9ad50b8fb503fc552b8bc09b3e33&X-Amz-SignedHeaders=host&response-content-disposition=filename%20=%22Untitled.png%22)
+```sh
+➜  MELI git:(master) ✗ cd backend 
+➜  backend git:(master) ✗ yarn start
+yarn run v1.22.10
+$ babel-node index.js
+🚀  Server ready at http://localhost:4000/
+```
 
   ** Queries de GraphQL **
   Actualmente el backend está utilizando GraphQL para la exposición de la data, para ello podemos ingresar al playground de **GraphQL**  accediendo a la URL `http://localhost:4000/graphql` 
@@ -120,4 +126,4 @@ Variable de Ejemplo:
 
   ![enter image description here](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5d58251b-1b88-4a1e-97e5-20290efda0e5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5/20210917/us-west-2/s3/aws4_request&X-Amz-Date=20210917T155914Z&X-Amz-Expires=86400&X-Amz-Signature=7e6e0dfec7a0d2e0de5c3164a91d300c38331d0a048c943749b6ffe8c13cb525&X-Amz-SignedHeaders=host&response-content-disposition=filename%20=%22Untitled.png%22)
 
-  
+
