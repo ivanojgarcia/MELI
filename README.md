@@ -1,7 +1,7 @@
 
 #  Aplicación que simula la búsqueda y muestra de productos Mercadolibre
 
-![enter image description here](https://img.mundopmmi.com/files/base/pmmi/mundo/image/2021/04/mercado_libre_logo.606e0981e5e08.png?auto=format%2Ccompress&q=70&w=700)
+![enter image description here](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2fb0eb8f-13ae-43cd-b266-a828a3b4b78f/mercadoLibreBG.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210917%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210917T163403Z&X-Amz-Expires=86400&X-Amz-Signature=fbc4fa2902fad5dcbd38da5d80f1132908130345daad2845db72f244bf221808&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22mercadoLibreBG.jpeg%22)
 
 El presente proyecto busca simular la búsqueda y muestra de un catálogo de producto y el detalle del mismo.
 Las tecnologías utilizadas en el proyecto son:
