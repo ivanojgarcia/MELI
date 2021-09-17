@@ -42,7 +42,7 @@ Instalar las dependencias tanto de Frontend como backend para ello ingresaremos 
 
 **Query para obtener la lista de productos por palabra clave KEY** 
 
-`
+```graphql
     query GetProductByKey($input: queryProductInput){
       getProductsByKey(input: $input) {
         author{
@@ -64,21 +64,21 @@ Instalar las dependencias tanto de Frontend como backend para ello ingresaremos 
         }
       }
     }
-`
+```
 Variables de ejemplo:
 
-`
+```json
     {
     	"input": {
     		"key": "iphone negro",
     		"limit": 10
     	}
     }
-`
+```
 **Query para obtener el detalle de un producto por ID** 
 
    
-`
+```graphql
      query ProductDetail($id: String) {
            productDetail(id: $id) {
             author {
@@ -100,10 +100,10 @@ Variables de ejemplo:
             }
           }
         }
-`
+```
 Variable de Ejemplo:
-`
+```json
     {
     	"id": "MLA919970533"
-    }
+   }
 `
