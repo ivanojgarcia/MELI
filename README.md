@@ -1,6 +1,6 @@
 
-#  Aplicación que simula la búsqueda y muestra de porductos Mercadolibre
-El presente  proyecto busca simular la búsqueda y muestra de un catálogo de producto y el detalle del mismo.
+#  Aplicación que simula la búsqueda y muestra de productos Mercadolibre
+El presente proyecto busca simular la búsqueda y muestra de un catálogo de producto y el detalle del mismo.
 Las tecnologías utilizadas en el proyecto son:
 
 - GraphQL
