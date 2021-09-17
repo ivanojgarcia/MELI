@@ -40,7 +40,7 @@ $ babel-node index.js
 🚀  Server ready at http://localhost:4000/
 ```
 
-  ** Queries de GraphQL **
+### Queries de GraphQL ### 
   Actualmente el backend está utilizando GraphQL para la exposición de la data, para ello podemos ingresar al playground de **GraphQL**  accediendo a la URL `http://localhost:4000/graphql` 
 *Ejemplo de como podría verse el playground para las query*
 
@@ -133,3 +133,4 @@ Variable de Ejemplo:
   Para ver el detalle del producto damos Click en la card
 
   ![enter image description here](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b1744fb5-2afd-4678-9e70-f0a1f6be708c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5/20210917/us-west-2/s3/aws4_request&X-Amz-Date=20210917T160901Z&X-Amz-Expires=86400&X-Amz-Signature=e3224a60502b7a4e483c8e0f52c994502cf311c5754e687cb138a4f7dd0d6b85&X-Amz-SignedHeaders=host&response-content-disposition=filename%20=%22Untitled.png%22)
+
